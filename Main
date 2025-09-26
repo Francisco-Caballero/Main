@@ -1,1 +1,1 @@
-open "http://www.google.com/"
+explorer "https://example.com"
