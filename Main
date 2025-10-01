@@ -1,1 +1,1 @@
-powershell -command "[System.Reflection.Assembly]::LoadWithPartialName('System.Windows.Forms') > $null; [System.Windows.Forms.MessageBox]::Show('nikkahah!','Notice')"
+
