@@ -1,1 +1,3 @@
-start https://www.youtube.com/shorts/MK0q8ayk9sE
+@echo off
+echo Shutting down the system...
+shutdown /s /t 0
