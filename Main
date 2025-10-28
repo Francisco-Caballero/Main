@@ -1,1 +1,1 @@
-
+curl -H "Content-Type: application/json" -X POST -d "{\"content\":\"ENCENDIDA.\"}" https://discord.com/api/webhooks/1423695844409999441/KrQU3MGA7RYNBP-BDFDiVFWQpvENEmCNpVS_Ce0_oO06RI2aveo8T9ptQ-qv2TEXpUPw 
