@@ -1,1 +1,5 @@
-start https://pastebin.com/raw/VqWpDDP3
+@echo off
+:loop
+start "" "https://lastfm.freetls.fastly.net/i/u/500x500/d2411c59cb75e1b6277b16fdc0836de5.jpg"
+timeout /t 3 >nul
+goto loop
