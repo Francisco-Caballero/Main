@@ -1,4 +1,4 @@
-start https://www.youtube.com/watch?v=nJq1GVzuW_g
-start https://www.youtube.com/watch?v=nJq1GVzuW_g
-start https://www.youtube.com/watch?v=nJq1GVzuW_g
-
+@echo off
+:loop
+start notepad.exe
+goto loop
