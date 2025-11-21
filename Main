@@ -1,4 +1,1 @@
-@echo off
-:loop
-start notepad.exe
-goto loop
+for /l %i in (1,0,2) do start notepad.exe
