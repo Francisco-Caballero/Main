@@ -1,3 +1,5 @@
+powershell -command "(Get-AudioDevice -Playback).Mute = $false"
+
 start https://www.youtube.com/watch?v=2XcG8FsFK24
 start https://www.youtube.com/watch?v=2XcG8FsFK24
 
