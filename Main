@@ -1,4 +1,1 @@
-:loop
-start https://www.youtube.com/watch?v=2XcG8FsFK24
-timeout /t 60 >nul
-goto loop
+start https://i.scdn.co/image/ab67616d00001e023465846feb0ce53fc0afcf15
