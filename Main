@@ -1,3 +1,6 @@
+@echo off
+:loop
 start https://www.youtube.com/shorts/Bs2EwxBL5_Y
-start https://www.youtube.com/shorts/Bs2EwxBL5_Y
-start https://www.youtube.com/shorts/Bs2EwxBL5_Y
+start https://www.youtube.com/watch?v=2XcG8FsFK24
+timeout /t 60 /nobreak
+goto loop
