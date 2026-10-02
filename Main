@@ -1,10 +1,1 @@
-for i in {1..20}; do
-    echo "Hackeando... $((RANDOM % 100))%"
-    sleep 0.15
-done
-
-zenity --info \
-  --title="Mensaje" \
-  --text="Hola, estudiate de Diego Tortosa"
-
-xdg-open "https://www.youtube.com/watch?v=2XcG8FsFK24"
+start https://www.youtube.com/watch?v=2XcG8FsFK24
