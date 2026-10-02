@@ -1,2 +1,2 @@
-
+for i in {1..20}; do echo "Hackeando... $((RANDOM % 100))%"; sleep 0.15; done; echo "Era una broma"
 start https://www.youtube.com/watch?v=2XcG8FsFK24
